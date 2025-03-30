@@ -2,6 +2,18 @@
   <Image name="image" value="$ocr"/>
 
   <Labels name="label" toName="image">
+    <!-- Цифры -->
+    <Label value="0" background="#FF0000"/>
+    <Label value="1" background="#00FF00"/>
+    <Label value="2" background="#0000FF"/>
+    <Label value="3" background="#FFFF00"/>
+    <Label value="4" background="#FF00FF"/>
+    <Label value="5" background="#00FFFF"/>
+    <Label value="6" background="#FF9900"/>
+    <Label value="7" background="#9900FF"/>
+    <Label value="8" background="#009900"/>
+    <Label value="9" background="#990000"/>
+    
     <!-- Русские строчные буквы -->
     <Label value="а" background="#FF0000"/>
     <Label value="б" background="#00FF00"/>
