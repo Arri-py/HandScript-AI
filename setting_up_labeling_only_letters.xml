@@ -1,0 +1,136 @@
+<View>
+  <Image name="image" value="$ocr"/>
+
+  <Labels name="label" toName="image">
+    <!-- Русские строчные буквы -->
+    <Label value="а" background="#FF0000"/>
+    <Label value="б" background="#00FF00"/>
+    <Label value="в" background="#0000FF"/>
+    <Label value="г" background="#FFFF00"/>
+    <Label value="д" background="#FF00FF"/>
+    <Label value="е" background="#00FFFF"/>
+    <Label value="ё" background="#FF9900"/>
+    <Label value="ж" background="#9900FF"/>
+    <Label value="з" background="#009900"/>
+    <Label value="и" background="#990000"/>
+    <Label value="й" background="#000099"/>
+    <Label value="к" background="#666600"/>
+    <Label value="л" background="#006666"/>
+    <Label value="м" background="#660066"/>
+    <Label value="н" background="#3366FF"/>
+    <Label value="о" background="#FF3366"/>
+    <Label value="п" background="#33FF66"/>
+    <Label value="р" background="#6633FF"/>
+    <Label value="с" background="#FF6633"/>
+    <Label value="т" background="#33FFCC"/>
+    <Label value="у" background="#CC33FF"/>
+    <Label value="ф" background="#FFCC33"/>
+    <Label value="х" background="#33CCFF"/>
+    <Label value="ц" background="#CCFF33"/>
+    <Label value="ч" background="#9933FF"/>
+    <Label value="ш" background="#FF3399"/>
+    <Label value="щ" background="#33FF99"/>
+    <Label value="ъ" background="#FF9933"/>
+    <Label value="ы" background="#3399FF"/>
+    <Label value="ь" background="#99FF33"/>
+    <Label value="э" background="#FF33CC"/>
+    <Label value="ю" background="#33CC99"/>
+    <Label value="я" background="#CC3399"/>
+
+    <!-- Русские заглавные буквы -->
+    <Label value="А" background="#FF0000"/>
+    <Label value="Б" background="#00FF00"/>
+    <Label value="В" background="#0000FF"/>
+    <Label value="Г" background="#FFFF00"/>
+    <Label value="Д" background="#FF00FF"/>
+    <Label value="Е" background="#00FFFF"/>
+    <Label value="Ё" background="#FF9900"/>
+    <Label value="Ж" background="#9900FF"/>
+    <Label value="З" background="#009900"/>
+    <Label value="И" background="#990000"/>
+    <Label value="Й" background="#000099"/>
+    <Label value="К" background="#666600"/>
+    <Label value="Л" background="#006666"/>
+    <Label value="М" background="#660066"/>
+    <Label value="Н" background="#3366FF"/>
+    <Label value="О" background="#FF3366"/>
+    <Label value="П" background="#33FF66"/>
+    <Label value="Р" background="#6633FF"/>
+    <Label value="С" background="#FF6633"/>
+    <Label value="Т" background="#33FFCC"/>
+    <Label value="У" background="#CC33FF"/>
+    <Label value="Ф" background="#FFCC33"/>
+    <Label value="Х" background="#33CCFF"/>
+    <Label value="Ц" background="#CCFF33"/>
+    <Label value="Ч" background="#9933FF"/>
+    <Label value="Ш" background="#FF3399"/>
+    <Label value="Щ" background="#33FF99"/>
+    <Label value="Ъ" background="#FF9933"/>
+    <Label value="Ы" background="#3399FF"/>
+    <Label value="Ь" background="#99FF33"/>
+    <Label value="Э" background="#FF33CC"/>
+    <Label value="Ю" background="#33CC99"/>
+    <Label value="Я" background="#CC3399"/>
+
+    <!-- Английские строчные буквы -->
+    <Label value="a" background="#FF0000"/>
+    <Label value="b" background="#00FF00"/>
+    <Label value="c" background="#0000FF"/>
+    <Label value="d" background="#FFFF00"/>
+    <Label value="e" background="#FF00FF"/>
+    <Label value="f" background="#00FFFF"/>
+    <Label value="g" background="#FF9900"/>
+    <Label value="h" background="#9900FF"/>
+    <Label value="i" background="#009900"/>
+    <Label value="j" background="#990000"/>
+    <Label value="k" background="#000099"/>
+    <Label value="l" background="#666600"/>
+    <Label value="m" background="#006666"/>
+    <Label value="n" background="#660066"/>
+    <Label value="o" background="#3366FF"/>
+    <Label value="p" background="#FF3366"/>
+    <Label value="q" background="#33FF66"/>
+    <Label value="r" background="#6633FF"/>
+    <Label value="s" background="#FF6633"/>
+    <Label value="t" background="#33FFCC"/>
+    <Label value="u" background="#CC33FF"/>
+    <Label value="v" background="#FFCC33"/>
+    <Label value="w" background="#33CCFF"/>
+    <Label value="x" background="#CCFF33"/>
+    <Label value="y" background="#9933FF"/>
+    <Label value="z" background="#FF3399"/>
+
+    <!-- Английские заглавные буквы -->
+    <Label value="A" background="#FF0000"/>
+    <Label value="B" background="#00FF00"/>
+    <Label value="C" background="#0000FF"/>
+    <Label value="D" background="#FFFF00"/>
+    <Label value="E" background="#FF00FF"/>
+    <Label value="F" background="#00FFFF"/>
+    <Label value="G" background="#FF9900"/>
+    <Label value="H" background="#9900FF"/>
+    <Label value="I" background="#009900"/>
+    <Label value="J" background="#990000"/>
+    <Label value="K" background="#000099"/>
+    <Label value="L" background="#666600"/>
+    <Label value="M" background="#006666"/>
+    <Label value="N" background="#660066"/>
+    <Label value="O" background="#3366FF"/>
+    <Label value="P" background="#FF3366"/>
+    <Label value="Q" background="#33FF66"/>
+    <Label value="R" background="#6633FF"/>
+    <Label value="S" background="#FF6633"/>
+    <Label value="T" background="#33FFCC"/>
+    <Label value="U" background="#CC33FF"/>
+    <Label value="V" background="#FFCC33"/>
+    <Label value="W" background="#33CCFF"/>
+    <Label value="X" background="#CCFF33"/>
+    <Label value="Y" background="#9933FF"/>
+    <Label value="Z" background="#FF3399"/>
+  </Labels>
+
+  <Rectangle name="bbox" toName="image" strokeWidth="3"/>
+  <Polygon name="poly" toName="image" strokeWidth="3"/>
+
+  <TextArea name="transcription" toName="image" editable="true" perRegion="true" required="true" maxSubmissions="1" rows="5" placeholder="Recognized Text" displayMode="region-list"/>
+</View>
