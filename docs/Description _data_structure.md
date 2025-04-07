@@ -52,7 +52,7 @@
 │   │       └── /ambiguous       # Сложные/неразборчивые символы
 │   │
 │   ├── /processed           # Данные после предварительной обработки
-│   │   ├── /document_detection
+│   │   ├── /text_detection
 │   │   │   ├── /images      # Нормализованные изображения (одинаковый размер и т.д.)
 │   │   │   └── /labels      # Преобразованные аннотации в едином формате
 │   │   │
@@ -65,7 +65,7 @@
 │   │   └── text_blocks      # Обнаруженные текстовые блоки
 │   │
 │   └── /splits              # Разделение на обучающие/валидационные/тестовые наборы
-│       ├── /document_detection
+│       ├── /text_detection
 │       │   ├── train.txt
 │       │   ├── val.txt
 │       │   └── test.txt
@@ -75,7 +75,7 @@
 │           └── test.csv
 │
 ├── /models                 🤖 models/ # Сейвы обученных сеток
-│   ├── /document_detection
+│   ├── /text_detection
 │   │   ├── model_weights.h5
 │   │   └── config.json
 │   └── /text_recognition   
@@ -84,7 +84,7 @@
 │
 ├── /notebooks              # Jupyter ноутбуки для анализа и экспериментов
 │   ├── 1_Data_Exploration.ipynb
-│   ├── 2_Document_Detection.ipynb
+│   ├── 2_Text_Detection.ipynb
 │   └── 3_Text_Recognition.ipynb
 │
 ├── /scripts                # Вспомогательные скрипты
@@ -104,3 +104,4 @@
 
 
 
+### Если чет не читается в гитхабе! Просто открой raw!
