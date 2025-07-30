@@ -18,7 +18,7 @@ ___
 ```
 handwriting_recognition/
 ├── symbols                 # все символы/буквы
-├── datasets/               # ВСЕ ДАННЫЕ
+├── data/                   # ВСЕ ДАННЫЕ
 │   ├── raw/                # как скачал
 │   ├── interim/            # вырезанные куски, сплиты
 │   └── processed/          # то, что жрёт модель
