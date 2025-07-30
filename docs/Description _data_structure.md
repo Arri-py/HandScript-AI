@@ -4,8 +4,7 @@
 **Как у нас всё лежит и зачем**  
 
 ## 📦 Где живёт датасет  
-Google Drive:  
-[https://drive.google.com/drive/folders/17Wfp3kLH8beWT5GRcoV5iwuVch_BtTu1?usp=sharing](https://drive.google.com/drive/folders/17Wfp3kLH8beWT5GRcoV5iwuVch_BtTu1?usp=sharing)  
+Google Drive:  [Тык](https://drive.google.com/drive/folders/17Wfp3kLH8beWT5GRcoV5iwuVch_BtTu1?usp=sharing)  
 
 Локально всё зеркалируется в `datasets/`.
 
