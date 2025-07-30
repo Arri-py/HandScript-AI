@@ -1,3 +1,5 @@
-data/*
-dataset/*
+models/**
+datasets/**
+/data/**
+!/data/**/
 .ipynb_checkpoints
