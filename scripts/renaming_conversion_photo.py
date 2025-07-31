@@ -7,7 +7,6 @@
 вот и все
 """
 
-
 import os
 from PIL import Image
 
